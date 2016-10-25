@@ -96,7 +96,7 @@
         return _managedObjectModel;
     }
     //加载实体
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"CoreDataUseDem" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"CoreDataUseDemo" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
